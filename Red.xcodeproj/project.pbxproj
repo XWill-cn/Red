@@ -18,9 +18,12 @@
 		4F2D395025C80BDD00046FEF /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D394F25C80BDD00046FEF /* FollowVC.swift */; };
 		4F2D395325C80BF800046FEF /* NearByVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D395225C80BF800046FEF /* NearByVC.swift */; };
 		4F2D395625C80DA700046FEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D395525C80DA700046FEF /* Constants.swift */; };
+		4F67ACF925F1E87000517381 /* NoteEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F67ACF825F1E87000517381 /* NoteEditVC.swift */; };
 		4FBD869925DF6B4F001E9A0F /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD869825DF6B4F001E9A0F /* WaterfallVC.swift */; };
 		4FBD869C25DF73EA001E9A0F /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD869B25DF73EA001E9A0F /* WaterfallCell.swift */; };
 		4FBD86A425E104EE001E9A0F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD86A325E104EE001E9A0F /* README.md */; };
+		4FBD86D125E118A8001E9A0F /* TabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD86D025E118A8001E9A0F /* TabBarC.swift */; };
+		4FBD86D725E11D6C001E9A0F /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD86D625E11D6C001E9A0F /* PostVC.swift */; };
 		6CE094CC7A32D50A13D63841 /* Pods_Red.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAF0E11B66649120B41AE9E /* Pods_Red.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,9 +42,12 @@
 		4F2D394F25C80BDD00046FEF /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
 		4F2D395225C80BF800046FEF /* NearByVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByVC.swift; sourceTree = "<group>"; };
 		4F2D395525C80DA700046FEF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4F67ACF825F1E87000517381 /* NoteEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditVC.swift; sourceTree = "<group>"; };
 		4FBD869825DF6B4F001E9A0F /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
 		4FBD869B25DF73EA001E9A0F /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 		4FBD86A325E104EE001E9A0F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4FBD86D025E118A8001E9A0F /* TabBarC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarC.swift; sourceTree = "<group>"; };
+		4FBD86D625E11D6C001E9A0F /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
 		967077532880EBDE31AA2A40 /* Pods-Red.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Red.debug.xcconfig"; path = "Target Support Files/Pods-Red/Pods-Red.debug.xcconfig"; sourceTree = "<group>"; };
 		FEAF0E11B66649120B41AE9E /* Pods_Red.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Red.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,18 +102,19 @@
 		4F2D392725C8081A00046FEF /* Red */ = {
 			isa = PBXGroup;
 			children = (
+				4FBD86D625E11D6C001E9A0F /* PostVC.swift */,
 				4F2D392825C8081A00046FEF /* AppDelegate.swift */,
 				4F2D392A25C8081A00046FEF /* SceneDelegate.swift */,
 				4F2D392E25C8081A00046FEF /* Main.storyboard */,
-				4FBD869825DF6B4F001E9A0F /* WaterfallVC.swift */,
-				4FBD869B25DF73EA001E9A0F /* WaterfallCell.swift */,
+				4F67ACF825F1E87000517381 /* NoteEditVC.swift */,
+				4FBD86D025E118A8001E9A0F /* TabBarC.swift */,
 				4F2D393425C8081A00046FEF /* Assets.xcassets */,
 				4F2D393625C8081A00046FEF /* LaunchScreen.storyboard */,
 				4F2D393925C8081A00046FEF /* Info.plist */,
 				4F2D393125C8081A00046FEF /* Red.xcdatamodeld */,
-				4F2D395525C80DA700046FEF /* Constants.swift */,
+				4FBD86CE25E1182A001E9A0F /* Waterfall */,
 				4F2D395925C8102500046FEF /* Home */,
-				4FBD86A225E104AA001E9A0F /* common */,
+				4FBD86A225E104AA001E9A0F /* Common */,
 				4F03F5189E0CA2A531123746 /* Pods */,
 				4F2D392625C8081A00046FEF /* Products */,
 			);
@@ -125,11 +132,21 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		4FBD86A225E104AA001E9A0F /* common */ = {
+		4FBD86A225E104AA001E9A0F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				4F2D395525C80DA700046FEF /* Constants.swift */,
 			);
-			path = common;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4FBD86CE25E1182A001E9A0F /* Waterfall */ = {
+			isa = PBXGroup;
+			children = (
+				4FBD869B25DF73EA001E9A0F /* WaterfallCell.swift */,
+				4FBD869825DF6B4F001E9A0F /* WaterfallVC.swift */,
+			);
+			path = Waterfall;
 			sourceTree = "<group>";
 		};
 		F4259294CF93DFCEF9530815 /* Frameworks */ = {
@@ -256,10 +273,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2D395325C80BF800046FEF /* NearByVC.swift in Sources */,
+				4FBD86D125E118A8001E9A0F /* TabBarC.swift in Sources */,
 				4FBD869925DF6B4F001E9A0F /* WaterfallVC.swift in Sources */,
 				4FBD869C25DF73EA001E9A0F /* WaterfallCell.swift in Sources */,
 				4F2D394D25C80BB400046FEF /* DiscoveryVC.swift in Sources */,
 				4F2D392925C8081A00046FEF /* AppDelegate.swift in Sources */,
+				4F67ACF925F1E87000517381 /* NoteEditVC.swift in Sources */,
+				4FBD86D725E11D6C001E9A0F /* PostVC.swift in Sources */,
 				4F2D394325C8095100046FEF /* HomeVC.swift in Sources */,
 				4F2D392B25C8081A00046FEF /* SceneDelegate.swift in Sources */,
 				4F2D393325C8081A00046FEF /* Red.xcdatamodeld in Sources */,
@@ -416,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UK668P4F6A;
 				INFOPLIST_FILE = Red/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,7 +445,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -437,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UK668P4F6A;
 				INFOPLIST_FILE = Red/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +468,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				"SWIFT_COMPILATION_MODE[arch=*]" = wholemodule;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

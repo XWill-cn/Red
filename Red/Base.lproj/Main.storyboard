@@ -17,13 +17,30 @@
                     <view key="view" contentMode="scaleToFill" id="Jpa-n9-C6X">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fW-Fb-iPe">
+                                <rect key="frame" x="120.66666666666667" y="449.33333333333331" width="186.66666666666663" height="27.666666666666686"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="附近页面（占位）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3w-Xr-3k7">
+                                        <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="27.666666666666668"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="oAH-QV-CaT"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4fW-Fb-iPe" firstAttribute="centerX" secondItem="Jpa-n9-C6X" secondAttribute="centerX" id="0Cj-xF-5pd"/>
+                            <constraint firstItem="4fW-Fb-iPe" firstAttribute="centerY" secondItem="Jpa-n9-C6X" secondAttribute="centerY" id="SKb-8x-q4W"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BAn-ah-RXy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-73" y="-3195"/>
+            <point key="canvasLocation" x="-4002" y="-2334"/>
         </scene>
         <!--DiscoveryVC-->
         <scene sceneID="sOK-uM-yDg">
@@ -75,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a4E-kL-h5h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-74.299065420560737" y="-2420.086393088553"/>
+            <point key="canvasLocation" x="1" y="-1619"/>
         </scene>
         <!--WaterfallVC-->
         <scene sceneID="Il8-UX-IRb">
@@ -119,7 +136,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5B4-Ha-PIc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="747.19626168224295" y="-2411.0151187904971"/>
+            <point key="canvasLocation" x="1172" y="-1619"/>
         </scene>
         <!--FollowVC-->
         <scene sceneID="akf-N5-axe">
@@ -128,13 +145,25 @@
                     <view key="view" contentMode="scaleToFill" id="Rme-ur-XgI">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关注页面（占位）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1k-GZ-XR7">
+                                <rect key="frame" x="120.66666666666667" y="449.33333333333331" width="186.66666666666663" height="27.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="mdZ-4L-xuD"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="e1k-GZ-XR7" firstAttribute="centerX" secondItem="Rme-ur-XgI" secondAttribute="centerX" id="FC6-bb-rdH"/>
+                            <constraint firstItem="e1k-GZ-XR7" firstAttribute="centerY" secondItem="Rme-ur-XgI" secondAttribute="centerY" id="mvn-3T-RgY"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PYf-Hn-WdV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1199" y="-3181"/>
+            <point key="canvasLocation" x="-5066" y="-2335"/>
         </scene>
         <!--首页-->
         <scene sceneID="nNh-gP-nyS">
@@ -185,7 +214,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTg-gK-NZZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1136.9158878504672" y="-2438.2289416846652"/>
+            <point key="canvasLocation" x="-1082" y="-1619"/>
         </scene>
         <!--商城-->
         <scene sceneID="tne-QT-ifu">
@@ -201,15 +230,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1081" y="-1532"/>
+            <point key="canvasLocation" x="-4002" y="-1514"/>
         </scene>
         <!--发布-->
         <scene sceneID="MWO-F9-9iE">
             <objects>
-                <viewController id="9Hm-h8-At3" sceneMemberID="viewController">
+                <viewController id="9Hm-h8-At3" customClass="PostVC" customModule="Red" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C3E-60-nlS">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="发布页面（占位）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4B-KO-qD6">
+                                <rect key="frame" x="121" y="449" width="187" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="L1A-kh-Fgu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -233,7 +271,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b5g-l1-pou" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1081" y="693"/>
+            <point key="canvasLocation" x="-5065" y="-731"/>
         </scene>
         <!--消息-->
         <scene sceneID="Lbt-2g-Oao">
@@ -249,12 +287,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ecz-Qu-yoO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1081" y="-144"/>
+            <point key="canvasLocation" x="-4002" y="-732"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab BarC-->
         <scene sceneID="HAS-EX-iNO">
             <objects>
-                <tabBarController id="MhU-Aq-oIZ" sceneMemberID="viewController">
+                <tabBarController id="MhU-Aq-oIZ" customClass="TabBarC" customModule="Red" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UWJ-D7-fdO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -273,6 +311,48 @@
             </objects>
             <point key="canvasLocation" x="-2441" y="-519"/>
         </scene>
+        <!--Note EditVC-->
+        <scene sceneID="Pjy-g1-DTk">
+            <objects>
+                <viewController storyboardIdentifier="NoteEditVCID" id="dbY-fD-NC4" customClass="NoteEditVC" customModule="Red" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pPJ-vF-Vd7">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2mx-uT-Na0">
+                                <rect key="frame" x="0.0" y="44" width="428" height="882"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ion-wn-MVs">
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="882"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ion-wn-MVs" firstAttribute="leading" secondItem="2mx-uT-Na0" secondAttribute="leading" id="6k3-0J-6yU"/>
+                                    <constraint firstAttribute="bottom" secondItem="ion-wn-MVs" secondAttribute="bottom" id="9eB-CB-0Qu"/>
+                                    <constraint firstAttribute="trailing" secondItem="ion-wn-MVs" secondAttribute="trailing" id="BOb-8K-sam"/>
+                                    <constraint firstItem="ion-wn-MVs" firstAttribute="top" secondItem="2mx-uT-Na0" secondAttribute="top" id="LqJ-55-jHC"/>
+                                    <constraint firstItem="ion-wn-MVs" firstAttribute="height" secondItem="IDF-s9-n0S" secondAttribute="height" id="XfJ-Dc-3OC"/>
+                                    <constraint firstItem="ion-wn-MVs" firstAttribute="width" secondItem="IDF-s9-n0S" secondAttribute="width" id="klt-FI-Sye"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="4mP-Mp-K1h"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="IDF-s9-n0S"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RCv-vp-TBC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="2mx-uT-Na0" secondAttribute="bottom" id="2uN-4C-YGG"/>
+                            <constraint firstItem="2mx-uT-Na0" firstAttribute="top" secondItem="RCv-vp-TBC" secondAttribute="top" id="WVX-ix-8ib"/>
+                            <constraint firstItem="2mx-uT-Na0" firstAttribute="leading" secondItem="RCv-vp-TBC" secondAttribute="leading" id="kGK-TB-a04"/>
+                            <constraint firstItem="2mx-uT-Na0" firstAttribute="trailing" secondItem="RCv-vp-TBC" secondAttribute="trailing" id="qas-CB-bBf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nmU-tf-Pi8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49.065420560747661" y="-830.02159827213825"/>
+        </scene>
     </scenes>
     <color key="tintColor" systemColor="systemRedColor"/>
     <resources>
@@ -287,14 +367,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemGroupedBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -1,48 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "IMG_2785 3@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "launchScreenImage@2x.png",
+      "filename" : "IMG_2785 3@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "filename" : "launchScreenImage-dark@2x.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "launchScreenImage@3x.png",
-      "idiom" : "universal",
-      "scale" : "3x"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "filename" : "launchScreenImage-dark@3x.png",
+      "filename" : "IMG_2785 3@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
